@@ -10,7 +10,5 @@ body{
 	width: 90px;
 	height: 90px;
 	border-radius: 50%;
-	/*position: absolute;
-	top: calc(-100px/2);
-	left: calc(50% - 50px);*/
+	
 }
