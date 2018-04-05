@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("bgimage.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.user{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	
+}
