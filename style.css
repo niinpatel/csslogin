@@ -5,6 +5,7 @@ body{
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
+
 }
 .user{
 	width: 90px;
@@ -15,21 +16,49 @@ body{
 	left: calc(50% - 50px);
 }
 .logo{
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 350px;
-	height: 380px;
-	padding: 65px 50px;
+	height: 500px;
+	padding: 50px 50px;
 	box-sizing: border-box;
 	background: rgba(0, 0, 0, 0.5);
+	border-radius: 10px 10px;
+	-webkit-animation-name: animatebottom;
+  	-webkit-animation-duration: 1s;
+  	animation-name: animatebottom;
+  	animation-duration: 1s;
+  	border: 1px solid #fff;
+
 }
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0px; opacity:1 }
+}
+
 .logo p{
 	margin: 0;
-	padding: 0;
+	padding: 10;
 	font-weight: bold;
 	color: #fff;
+}
+
+.logo h2{
+	margin:0;
+	margin-bottom:30px;
+	margin-top:10px;
+	font-weight: bold;
+	font-size:24px;
+	color:#fff;
+	
+
 }
 .logo input{
 	width: 100%;
@@ -59,9 +88,16 @@ body{
 .logo input[type="submit"]:hover{
 	background: #333;
 }
+.logo input[type="checkbox"]{
+	width:10%;
+}
 .logo a{
 	color: #fff;
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 14px;
+	line-height: 25px;
+}
+.logo a:hover{
+	color:#333;
 }

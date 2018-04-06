@@ -2,18 +2,20 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Transparent Login Form</title>
+	<title>Login Form</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="logo">
 		<img src="logo.jpeg" class="user">
-		<p>Email</p>
-		<input type="text" name="email" placeholder="" required/>
-		<p>Password</p>
-		<input type="Password" name="password" placeholder="" required>
-		<input type="submit" name="submit" value="Login">
-		<a href="#">Forgot Password</a>
+		<h2>Login</h2>
+		<input type="text" name="email" placeholder="Email" required/>
+		<input type="Password" name="password" placeholder="Password" required>
+		<p><input id="checkbox" type="checkbox" name="agree" value="agree"/>I agree with the terms</p>
+		<input class="buttons" type="submit" name="submit" value="Login">
+		<a href="reset.html">Forgot Password</a><br/>
+
+		<a href="signup.html">New here? Sign up!</a>
 	</div>
 </body>
 </html>
