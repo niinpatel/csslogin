@@ -36,11 +36,13 @@ body{
 @-webkit-keyframes animatebottom {
   from { bottom:-100px; opacity:0 } 
   to { bottom:0px; opacity:1 }
+
 }
 
 @keyframes animatebottom { 
   from{ bottom:-100px; opacity:0 } 
   to{ bottom:0px; opacity:1 }
+
 }
 
 .logo p{
@@ -48,8 +50,8 @@ body{
 	padding: 10;
 	font-weight: bold;
 	color: #fff;
-}
 
+}
 .logo h2{
 	margin:0;
 	margin-bottom:30px;
@@ -57,12 +59,12 @@ body{
 	font-weight: bold;
 	font-size:24px;
 	color:#fff;
-	
 
 }
 .logo input{
 	width: 100%;
 	margin-bottom: 20px;
+
 }
 .logo input[type="text"],
 .logo input[type="password"]
@@ -74,6 +76,7 @@ body{
 	font-size: 16px;
 	height: 30px;
 	color: #fff;
+
 }
 .logo input[type="submit"]
 {
@@ -84,12 +87,15 @@ body{
 	font-size: 16px;
 	background-color: #f52887;
 	border-radius: 20px;
+
 }
 .logo input[type="submit"]:hover{
 	background: #333;
+
 }
 .logo input[type="checkbox"]{
 	width:10%;
+
 }
 .logo a{
 	color: #fff;
@@ -97,7 +103,9 @@ body{
 	text-decoration: none;
 	font-size: 14px;
 	line-height: 25px;
+
 }
 .logo a:hover{
 	color:#333;
+	
 }
